@@ -6,7 +6,6 @@ from django.contrib.auth.base_user import BaseUserManager
 class User(AbstractUser):
     pass
 
-    objects = BaseUserManager()
 
 
 
