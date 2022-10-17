@@ -43,9 +43,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'rest_framework',
+    'django_filters',
+
     'user',
     'car',
-    'review'
+    'review',
 ]
 
 
@@ -58,6 +61,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+
 
 ROOT_URLCONF = 'main.urls'
 
@@ -133,3 +138,4 @@ AUTH_USER_MODEL = 'user.User'
 
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
+

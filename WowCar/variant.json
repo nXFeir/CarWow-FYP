@@ -1,0 +1,3654 @@
+[
+    {
+        "model": "car.variant",
+        "pk": 10,
+        "fields": {
+            "generation": 291,
+            "variant": "1.0L TURBO AV",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 11,
+        "fields": {
+            "generation": 50,
+            "variant": "HYBRID ELECTRIC",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 12,
+        "fields": {
+            "generation": 8,
+            "variant": "1.5",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 13,
+        "fields": {
+            "generation": 9,
+            "variant": "330e M Sport",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 14,
+        "fields": {
+            "generation": 166,
+            "variant": "R-Line 2.0 TSI 4Motion",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 15,
+        "fields": {
+            "generation": 15,
+            "variant": "1.5G",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 16,
+        "fields": {
+            "generation": 15,
+            "variant": "1.5E",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 33,
+        "fields": {
+            "generation": 15,
+            "variant": "1.5J",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 34,
+        "fields": {
+            "generation": 32,
+            "variant": "Single Cab 2.4 (MT) 4X4",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 35,
+        "fields": {
+            "generation": 32,
+            "variant": "Double Cab 2.8 Rogue (AT) 4X4",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 36,
+        "fields": {
+            "generation": 32,
+            "variant": "Double Cab 2.4E (AT) 4X4",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 37,
+        "fields": {
+            "generation": 32,
+            "variant": "Double Cab 2.4G (MT) 4X4",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 38,
+        "fields": {
+            "generation": 32,
+            "variant": "Double Cab 2.4V (AT) 4X4",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 39,
+        "fields": {
+            "generation": 26,
+            "variant": "1.5G",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 40,
+        "fields": {
+            "generation": 26,
+            "variant": "1.5J",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 41,
+        "fields": {
+            "generation": 37,
+            "variant": "-",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 42,
+        "fields": {
+            "generation": 41,
+            "variant": "2.0E (AT)",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 43,
+        "fields": {
+            "generation": 26,
+            "variant": "1.5E",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 44,
+        "fields": {
+            "generation": 41,
+            "variant": "2.0G (AT)",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 45,
+        "fields": {
+            "generation": 41,
+            "variant": "2.0X (AT)",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 46,
+        "fields": {
+            "generation": 272,
+            "variant": "S",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 47,
+        "fields": {
+            "generation": 272,
+            "variant": "E",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 48,
+        "fields": {
+            "generation": 272,
+            "variant": "V",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 49,
+        "fields": {
+            "generation": 46,
+            "variant": "1.8E",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 50,
+        "fields": {
+            "generation": 272,
+            "variant": "RS e:HEV",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 51,
+        "fields": {
+            "generation": 46,
+            "variant": "1.8G",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 52,
+        "fields": {
+            "generation": 272,
+            "variant": "V Sensing",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 53,
+        "fields": {
+            "generation": 50,
+            "variant": "1.8G",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 54,
+        "fields": {
+            "generation": 50,
+            "variant": "1.8V",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 55,
+        "fields": {
+            "generation": 50,
+            "variant": "1.8 Hybrid",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 56,
+        "fields": {
+            "generation": 64,
+            "variant": "2.4 AT 4x4",
+            "body_type": "SUV",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 57,
+        "fields": {
+            "generation": 273,
+            "variant": "S",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 58,
+        "fields": {
+            "generation": 273,
+            "variant": "E",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 59,
+        "fields": {
+            "generation": 273,
+            "variant": "V",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 60,
+        "fields": {
+            "generation": 64,
+            "variant": "2.7 SRZ AT 4x4",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 61,
+        "fields": {
+            "generation": 273,
+            "variant": "RS e:HEV",
+            "body_type": "Hatchback",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 62,
+        "fields": {
+            "generation": 273,
+            "variant": "V Sensing",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 63,
+        "fields": {
+            "generation": 64,
+            "variant": "2.8 VRZ AT 4x4",
+            "body_type": "SUV",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 64,
+        "fields": {
+            "generation": 65,
+            "variant": "2.5V",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 65,
+        "fields": {
+            "generation": 78,
+            "variant": "2.5L",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 66,
+        "fields": {
+            "generation": 79,
+            "variant": "2.0 Luxury",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 67,
+        "fields": {
+            "generation": 80,
+            "variant": "1.6L Turbocharged",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 68,
+        "fields": {
+            "generation": 81,
+            "variant": "2.5 L",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 69,
+        "fields": {
+            "generation": 82,
+            "variant": "3.5 L",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 70,
+        "fields": {
+            "generation": 88,
+            "variant": "Advanced 1.4 TFSI S",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 71,
+        "fields": {
+            "generation": 88,
+            "variant": "Sportback 2.0 TFSI",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 72,
+        "fields": {
+            "generation": 90,
+            "variant": "Sportback 2.0 TFSI Quattro",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 73,
+        "fields": {
+            "generation": 91,
+            "variant": "Sportback S line 2.0 TFSI quattro",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 74,
+        "fields": {
+            "generation": 92,
+            "variant": "Avant",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 75,
+        "fields": {
+            "generation": 93,
+            "variant": "Sportback",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 76,
+        "fields": {
+            "generation": 95,
+            "variant": "sDrive18i",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 77,
+        "fields": {
+            "generation": 95,
+            "variant": "sDrive20i M Sport",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 78,
+        "fields": {
+            "generation": 97,
+            "variant": "218i Gran Coupe",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 79,
+        "fields": {
+            "generation": 9,
+            "variant": "330i M Sport",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 80,
+        "fields": {
+            "generation": 9,
+            "variant": "320i Sport",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 81,
+        "fields": {
+            "generation": 9,
+            "variant": "330Li M Sport",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 82,
+        "fields": {
+            "generation": 106,
+            "variant": "sDrive20i M Sport",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 83,
+        "fields": {
+            "generation": 104,
+            "variant": "1.5L E",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 84,
+        "fields": {
+            "generation": 104,
+            "variant": "1.5L V",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 85,
+        "fields": {
+            "generation": 106,
+            "variant": "xDrive30e M Sport",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 86,
+        "fields": {
+            "generation": 106,
+            "variant": "xDrive30i M Sport",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 87,
+        "fields": {
+            "generation": 267,
+            "variant": "1.8 S",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 88,
+        "fields": {
+            "generation": 267,
+            "variant": "1.5 TC",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 89,
+        "fields": {
+            "generation": 267,
+            "variant": "1.5 TC Premium",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 90,
+        "fields": {
+            "generation": 111,
+            "variant": "M135i xDrive",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 91,
+        "fields": {
+            "generation": 112,
+            "variant": "430i Coupé M Sport",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 92,
+        "fields": {
+            "generation": 114,
+            "variant": "1.5 E",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 93,
+        "fields": {
+            "generation": 114,
+            "variant": "1.5 V",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 94,
+        "fields": {
+            "generation": 113,
+            "variant": "xDrive30i M Sport",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 95,
+        "fields": {
+            "generation": 114,
+            "variant": "1.5 RS",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 97,
+        "fields": {
+            "generation": 117,
+            "variant": "xDrive30i M Sport",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 98,
+        "fields": {
+            "generation": 118,
+            "variant": "eDrive40 M Sport",
+            "body_type": "Sedan",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 99,
+        "fields": {
+            "generation": 118,
+            "variant": "M50",
+            "body_type": "Sedan",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 100,
+        "fields": {
+            "generation": 120,
+            "variant": "530e M Sport",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 101,
+        "fields": {
+            "generation": 121,
+            "variant": "1.5 TC-P 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 102,
+        "fields": {
+            "generation": 121,
+            "variant": "2.0 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 103,
+        "fields": {
+            "generation": 121,
+            "variant": "1.5 TC-P 4WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 104,
+        "fields": {
+            "generation": 121,
+            "variant": "Black Edition",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 105,
+        "fields": {
+            "generation": 120,
+            "variant": "530i M Sport",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 106,
+        "fields": {
+            "generation": 126,
+            "variant": "xDrive45e M Sport",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 107,
+        "fields": {
+            "generation": 127,
+            "variant": "630i GT M Sport",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 108,
+        "fields": {
+            "generation": 129,
+            "variant": "1.5 TC",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 109,
+        "fields": {
+            "generation": 129,
+            "variant": "1.5 TC-P",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 110,
+        "fields": {
+            "generation": 130,
+            "variant": "2.4L EXV",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 111,
+        "fields": {
+            "generation": 131,
+            "variant": "xDrive40i M Sport",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 112,
+        "fields": {
+            "generation": 132,
+            "variant": "740Le xDrive Design Pure Excellence",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 113,
+        "fields": {
+            "generation": 132,
+            "variant": "740Le xDrive M Sport",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 115,
+        "fields": {
+            "generation": 134,
+            "variant": "xDrive40i Design Pure Excellence",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 116,
+        "fields": {
+            "generation": 140,
+            "variant": "M850i xDrive",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 117,
+        "fields": {
+            "generation": 137,
+            "variant": "sDrive30i M Sport",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 118,
+        "fields": {
+            "generation": 9,
+            "variant": "BMW M340i xDrive",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 119,
+        "fields": {
+            "generation": 140,
+            "variant": "840i Gran Coupe M Sport",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 120,
+        "fields": {
+            "generation": 139,
+            "variant": "Competition Sedan",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 121,
+        "fields": {
+            "generation": 143,
+            "variant": "Coupe",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 122,
+        "fields": {
+            "generation": 146,
+            "variant": "Competition Coupe",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 123,
+        "fields": {
+            "generation": 149,
+            "variant": "RS",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 124,
+        "fields": {
+            "generation": 148,
+            "variant": "1.2 PureTech",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 125,
+        "fields": {
+            "generation": 147,
+            "variant": "Competition",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 126,
+        "fields": {
+            "generation": 156,
+            "variant": "1.5 S",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 127,
+        "fields": {
+            "generation": 156,
+            "variant": "1.5 Turbo E",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 128,
+        "fields": {
+            "generation": 156,
+            "variant": "1.5 Turbo V",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 129,
+        "fields": {
+            "generation": 156,
+            "variant": "1.5 RS e:HEV",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 130,
+        "fields": {
+            "generation": 152,
+            "variant": "-",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 132,
+        "fields": {
+            "generation": 157,
+            "variant": "-",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 133,
+        "fields": {
+            "generation": 160,
+            "variant": "Competition",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 134,
+        "fields": {
+            "generation": 159,
+            "variant": "-",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 135,
+        "fields": {
+            "generation": 161,
+            "variant": "2.0TSI Elegance",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 136,
+        "fields": {
+            "generation": 161,
+            "variant": "2.0TSI R-Line",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 137,
+        "fields": {
+            "generation": 164,
+            "variant": "Allspace 1.4TSI Elegance",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 138,
+        "fields": {
+            "generation": 164,
+            "variant": "Allspace 2.0TSI R-Line 4Motion",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 139,
+        "fields": {
+            "generation": 10,
+            "variant": "R-Line",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 140,
+        "fields": {
+            "generation": 167,
+            "variant": "Recharge T8 Inscription",
+            "body_type": "Wagon",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 141,
+        "fields": {
+            "generation": 171,
+            "variant": "T5 Momentum",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 142,
+        "fields": {
+            "generation": 171,
+            "variant": "T8 Inscription",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 143,
+        "fields": {
+            "generation": 171,
+            "variant": "B5 AWD Inscription Plus",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 144,
+        "fields": {
+            "generation": 171,
+            "variant": "T8 Inscription Plus",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 145,
+        "fields": {
+            "generation": 174,
+            "variant": "GTD",
+            "body_type": "Hatchback",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 146,
+        "fields": {
+            "generation": 173,
+            "variant": "2.0TSI GTI",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 147,
+        "fields": {
+            "generation": 176,
+            "variant": "T5 Momentum",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 148,
+        "fields": {
+            "generation": 176,
+            "variant": "Recharge T8 Inscription Plus",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 149,
+        "fields": {
+            "generation": 183,
+            "variant": "T5",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 150,
+        "fields": {
+            "generation": 174,
+            "variant": "2.0TSI GTI",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 151,
+        "fields": {
+            "generation": 183,
+            "variant": "T8 Twin Engine Inscription",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 152,
+        "fields": {
+            "generation": 183,
+            "variant": "T8 Twin Engine Inscription Plus",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 153,
+        "fields": {
+            "generation": 182,
+            "variant": "T8 R-Design",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 154,
+        "fields": {
+            "generation": 181,
+            "variant": "2.0TSI R",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 155,
+        "fields": {
+            "generation": 174,
+            "variant": "1.4TSI R-Line",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 156,
+        "fields": {
+            "generation": 187,
+            "variant": "B5 Momentum",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 157,
+        "fields": {
+            "generation": 187,
+            "variant": "Recharge T8 Inscription Plus",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 158,
+        "fields": {
+            "generation": 191,
+            "variant": "1.6L Comfortline",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 159,
+        "fields": {
+            "generation": 188,
+            "variant": "T5 Momentum",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 160,
+        "fields": {
+            "generation": 188,
+            "variant": "T8 Twin Engine Inscription",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 161,
+        "fields": {
+            "generation": 188,
+            "variant": "T8 Twin Engine Inscription Plus",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 162,
+        "fields": {
+            "generation": 191,
+            "variant": "1.6L Comfortline Join",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 163,
+        "fields": {
+            "generation": 193,
+            "variant": "1.6L Comfortline",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 164,
+        "fields": {
+            "generation": 193,
+            "variant": "1.2TSI Highline",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 165,
+        "fields": {
+            "generation": 236,
+            "variant": "Allspace 1.4TSI Highline",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 166,
+        "fields": {
+            "generation": 236,
+            "variant": "1.4TSI UNITED",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 167,
+        "fields": {
+            "generation": 202,
+            "variant": "Recharge Pure Electric P8 AWD",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 168,
+        "fields": {
+            "generation": 236,
+            "variant": "1.4TSI JOIN",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 169,
+        "fields": {
+            "generation": 236,
+            "variant": "Allspace 2.0TSI R-Line 4Motion",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 170,
+        "fields": {
+            "generation": 202,
+            "variant": "Recharge T5 R-Design",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 171,
+        "fields": {
+            "generation": 202,
+            "variant": "T5 R-Design",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 172,
+        "fields": {
+            "generation": 202,
+            "variant": "T5 AWD R-Design",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 173,
+        "fields": {
+            "generation": 160,
+            "variant": "M5",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 174,
+        "fields": {
+            "generation": 164,
+            "variant": "Allspace Life",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 175,
+        "fields": {
+            "generation": 213,
+            "variant": "LS MANUAL",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 176,
+        "fields": {
+            "generation": 213,
+            "variant": "ACTIV MANUAL",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 177,
+        "fields": {
+            "generation": 207,
+            "variant": "Luxury",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 178,
+        "fields": {
+            "generation": 213,
+            "variant": "LS AUTOMATIC",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 179,
+        "fields": {
+            "generation": 210,
+            "variant": "3.9L V8",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 180,
+        "fields": {
+            "generation": 213,
+            "variant": "1LT MANUAL",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 181,
+        "fields": {
+            "generation": 213,
+            "variant": "1LT AUTOMATIC",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 182,
+        "fields": {
+            "generation": 213,
+            "variant": "2LT AUTOMATIC",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 184,
+        "fields": {
+            "generation": 215,
+            "variant": "3.0L V6",
+            "body_type": "Convertible",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 185,
+        "fields": {
+            "generation": 216,
+            "variant": "3.9L V8",
+            "body_type": "Convertible",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 186,
+        "fields": {
+            "generation": 217,
+            "variant": "6.5L V12",
+            "body_type": "Convertible",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 187,
+        "fields": {
+            "generation": 221,
+            "variant": "2.0i",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 188,
+        "fields": {
+            "generation": 225,
+            "variant": "2.0i-S EyeSight",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 189,
+        "fields": {
+            "generation": 225,
+            "variant": "2.0i-P EyeSight GT Edition",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 190,
+        "fields": {
+            "generation": 221,
+            "variant": "2.0i-P",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 191,
+        "fields": {
+            "generation": 222,
+            "variant": "4.0L V8",
+            "body_type": "Coupe",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 192,
+        "fields": {
+            "generation": 223,
+            "variant": "4.0L V8",
+            "body_type": "Convertible",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 193,
+        "fields": {
+            "generation": 225,
+            "variant": "2.0i-P EyeSight",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 194,
+        "fields": {
+            "generation": 226,
+            "variant": "2.0i-L GT Lite Edition",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 195,
+        "fields": {
+            "generation": 227,
+            "variant": "2.4 6MT",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 196,
+        "fields": {
+            "generation": 228,
+            "variant": "Sport",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 197,
+        "fields": {
+            "generation": 229,
+            "variant": "1.5L ALLGRIP PRO",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 199,
+        "fields": {
+            "generation": 231,
+            "variant": "Extended",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 200,
+        "fields": {
+            "generation": 232,
+            "variant": "6.8L Twin-turbocharged V12",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 201,
+        "fields": {
+            "generation": 233,
+            "variant": "Base",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 203,
+        "fields": {
+            "generation": 244,
+            "variant": "2.0L XL (MT)",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 204,
+        "fields": {
+            "generation": 244,
+            "variant": "2.0L XL (AT)",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 205,
+        "fields": {
+            "generation": 244,
+            "variant": "2.0L XLT (MT)",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 206,
+        "fields": {
+            "generation": 244,
+            "variant": "2.0L XLT (AT)",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 207,
+        "fields": {
+            "generation": 244,
+            "variant": "2.0L XLT Plus",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 208,
+        "fields": {
+            "generation": 244,
+            "variant": "WildTrak",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 209,
+        "fields": {
+            "generation": 244,
+            "variant": "2.0 Wiltrak (AT)",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 210,
+        "fields": {
+            "generation": 246,
+            "variant": "Raptor 2.0 Bi-Turbo",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 211,
+        "fields": {
+            "generation": 246,
+            "variant": "2.0L Raptor X 4x4 High Rider",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 212,
+        "fields": {
+            "generation": 255,
+            "variant": "Signature Plus",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 213,
+        "fields": {
+            "generation": 255,
+            "variant": "Signature",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 216,
+        "fields": {
+            "generation": 253,
+            "variant": "Standard",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 217,
+        "fields": {
+            "generation": 253,
+            "variant": "Plus",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 218,
+        "fields": {
+            "generation": 253,
+            "variant": "Trophy",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 220,
+        "fields": {
+            "generation": 255,
+            "variant": "Standard",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 228,
+        "fields": {
+            "generation": 261,
+            "variant": "1.3 Standard MT",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 229,
+        "fields": {
+            "generation": 261,
+            "variant": "1.3 Standard AT",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 230,
+        "fields": {
+            "generation": 261,
+            "variant": "1.3 Premium S AT",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 231,
+        "fields": {
+            "generation": 261,
+            "variant": "1.3 Premium AT",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 232,
+        "fields": {
+            "generation": 263,
+            "variant": "M Sport Inspiring",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 239,
+        "fields": {
+            "generation": 265,
+            "variant": "1.3 Standard CVT",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 244,
+        "fields": {
+            "generation": 263,
+            "variant": "M Sport Impressive",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 246,
+        "fields": {
+            "generation": 280,
+            "variant": "xDrive40 Sport",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 247,
+        "fields": {
+            "generation": 280,
+            "variant": "xDrive40",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 248,
+        "fields": {
+            "generation": 265,
+            "variant": "1.6 Active CVT",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 249,
+        "fields": {
+            "generation": 265,
+            "variant": "1.6 Executive CVT",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 250,
+        "fields": {
+            "generation": 283,
+            "variant": "1.6 Premium CVT",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 251,
+        "fields": {
+            "generation": 283,
+            "variant": "1.6 Executive CVT",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 252,
+        "fields": {
+            "generation": 283,
+            "variant": "1.6 Standard CVT",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 253,
+        "fields": {
+            "generation": 284,
+            "variant": "1.6 EX",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 254,
+        "fields": {
+            "generation": 286,
+            "variant": "1.5L X",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 255,
+        "fields": {
+            "generation": 285,
+            "variant": "1.5 TGDI Flagship",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 256,
+        "fields": {
+            "generation": 286,
+            "variant": "1.5L H",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 257,
+        "fields": {
+            "generation": 286,
+            "variant": "Z",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 258,
+        "fields": {
+            "generation": 286,
+            "variant": "1.5L AV",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 259,
+        "fields": {
+            "generation": 285,
+            "variant": "1.5T Standard",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 260,
+        "fields": {
+            "generation": 285,
+            "variant": "1.5T Executive",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 261,
+        "fields": {
+            "generation": 285,
+            "variant": "1.5T Premium",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 262,
+        "fields": {
+            "generation": 290,
+            "variant": "2.2D 11-Seater",
+            "body_type": "MPV",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 263,
+        "fields": {
+            "generation": 290,
+            "variant": "2.2D 8-Seater Mid",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 264,
+        "fields": {
+            "generation": 290,
+            "variant": "2.2D 7-Seater High",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 265,
+        "fields": {
+            "generation": 290,
+            "variant": "2.2D 8-Seater High",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 266,
+        "fields": {
+            "generation": 292,
+            "variant": "2.2D",
+            "body_type": "MPV",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 267,
+        "fields": {
+            "generation": 291,
+            "variant": "1.0L Turbo X",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 268,
+        "fields": {
+            "generation": 291,
+            "variant": "1.0L Turbo H",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 269,
+        "fields": {
+            "generation": 291,
+            "variant": "1.0L Turbo H Special Metallic",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 270,
+        "fields": {
+            "generation": 291,
+            "variant": "1.0L Turbo AV",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 271,
+        "fields": {
+            "generation": 291,
+            "variant": "1.0L Turbo AV Special Metallic",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 272,
+        "fields": {
+            "generation": 291,
+            "variant": "1.0L Turbo AV 2-Tone",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 273,
+        "fields": {
+            "generation": 293,
+            "variant": "e-Lite",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 274,
+        "fields": {
+            "generation": 293,
+            "variant": "e-Plus",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 275,
+        "fields": {
+            "generation": 293,
+            "variant": "e-Max",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 276,
+        "fields": {
+            "generation": 294,
+            "variant": "1.6 Executive",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 277,
+        "fields": {
+            "generation": 294,
+            "variant": "1.6 Premium",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 278,
+        "fields": {
+            "generation": 295,
+            "variant": "2.5 Premium",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 279,
+        "fields": {
+            "generation": 296,
+            "variant": "1.5 TGDi Standard 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 280,
+        "fields": {
+            "generation": 296,
+            "variant": "1.5 TGDi Executive 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 281,
+        "fields": {
+            "generation": 296,
+            "variant": "1.5 TGDi Executive AWD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 282,
+        "fields": {
+            "generation": 296,
+            "variant": "1.5 TGDi Premium 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 283,
+        "fields": {
+            "generation": 296,
+            "variant": "1.8 TGDi Premium 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 284,
+        "fields": {
+            "generation": 298,
+            "variant": "Special Edition (SE)",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 285,
+        "fields": {
+            "generation": 298,
+            "variant": "1.8 Standard 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 286,
+        "fields": {
+            "generation": 298,
+            "variant": "1.8 Executive 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 287,
+        "fields": {
+            "generation": 298,
+            "variant": "1.8 Premium 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 288,
+        "fields": {
+            "generation": 298,
+            "variant": "1.8 Premium X 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 289,
+        "fields": {
+            "generation": 299,
+            "variant": "-",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 290,
+        "fields": {
+            "generation": 300,
+            "variant": "R2.2 CRDi Exec 8",
+            "body_type": "SUV",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 291,
+        "fields": {
+            "generation": 300,
+            "variant": "3.8 GDI Luxe 8",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 292,
+        "fields": {
+            "generation": 300,
+            "variant": "R2.2 CRDi Exec 7",
+            "body_type": "SUV",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 293,
+        "fields": {
+            "generation": 300,
+            "variant": "3.8 GDI Luxe 7",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 294,
+        "fields": {
+            "generation": 301,
+            "variant": "2.2 Premium",
+            "body_type": "MPV",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 295,
+        "fields": {
+            "generation": 302,
+            "variant": "Lite",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 297,
+        "fields": {
+            "generation": 302,
+            "variant": "Plus",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 298,
+        "fields": {
+            "generation": 302,
+            "variant": "Max",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 299,
+        "fields": {
+            "generation": 303,
+            "variant": "200 Progressive Line (CKD)",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 300,
+        "fields": {
+            "generation": 303,
+            "variant": "250 AMG Line (CKD)",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 301,
+        "fields": {
+            "generation": 303,
+            "variant": "200 Progressive Line",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 302,
+        "fields": {
+            "generation": 303,
+            "variant": "250 AMG Line",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 303,
+        "fields": {
+            "generation": 304,
+            "variant": "200 Progressive Line",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 304,
+        "fields": {
+            "generation": 304,
+            "variant": "250 4MATIC AMG Line",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 305,
+        "fields": {
+            "generation": 305,
+            "variant": "C200 Avantgarde",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 306,
+        "fields": {
+            "generation": 305,
+            "variant": "C300 AMG Line",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 307,
+        "fields": {
+            "generation": 307,
+            "variant": "E200 Avantgarde",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 308,
+        "fields": {
+            "generation": 307,
+            "variant": "E300 AMG Line",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 309,
+        "fields": {
+            "generation": 307,
+            "variant": "E300 AMG Line",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 310,
+        "fields": {
+            "generation": 308,
+            "variant": "450 4MATIC Coupe AMG Line",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 311,
+        "fields": {
+            "generation": 309,
+            "variant": "S580 e",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 312,
+        "fields": {
+            "generation": 310,
+            "variant": "450 4MATIC AMG Line",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 313,
+        "fields": {
+            "generation": 310,
+            "variant": "600 4MATIC",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 314,
+        "fields": {
+            "generation": 311,
+            "variant": "Select 121 Extra Long",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 315,
+        "fields": {
+            "generation": 312,
+            "variant": "A35 4MATIC",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 316,
+        "fields": {
+            "generation": 313,
+            "variant": "1.0L VL",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 317,
+        "fields": {
+            "generation": 313,
+            "variant": "1.0L VLP",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 318,
+        "fields": {
+            "generation": 313,
+            "variant": "1.0L VLT",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 319,
+        "fields": {
+            "generation": 312,
+            "variant": "A45 S 4MATIC+",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 320,
+        "fields": {
+            "generation": 314,
+            "variant": "2.5L Single Cab Manual",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 321,
+        "fields": {
+            "generation": 315,
+            "variant": "35 4MATIC",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 322,
+        "fields": {
+            "generation": 314,
+            "variant": "2.5L SE Manual",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 323,
+        "fields": {
+            "generation": 314,
+            "variant": "2.5L SE Auto",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 324,
+        "fields": {
+            "generation": 316,
+            "variant": "35 4MATIC",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 325,
+        "fields": {
+            "generation": 314,
+            "variant": "2.5L V Auto",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 326,
+        "fields": {
+            "generation": 314,
+            "variant": "2.5L VL Auto",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 327,
+        "fields": {
+            "generation": 314,
+            "variant": "2.5L Pro-4X Auto",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 328,
+        "fields": {
+            "generation": 317,
+            "variant": "S-Hybrid Highway Star",
+            "body_type": "MPV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 329,
+        "fields": {
+            "generation": 318,
+            "variant": "45 S 4MATIC+",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 330,
+        "fields": {
+            "generation": 317,
+            "variant": "S-Hybrid Premium Highway Star",
+            "body_type": "MPV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 331,
+        "fields": {
+            "generation": 320,
+            "variant": "1.5L Sedan",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 332,
+        "fields": {
+            "generation": 320,
+            "variant": "1.5L Hatchback",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 333,
+        "fields": {
+            "generation": 321,
+            "variant": "43 4MATIC Coupe (CKD)",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 334,
+        "fields": {
+            "generation": 320,
+            "variant": "1.5L Soul Red Crystal",
+            "body_type": "Hatchback",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 335,
+        "fields": {
+            "generation": 321,
+            "variant": "43 4MATIC Coupe",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 336,
+        "fields": {
+            "generation": 322,
+            "variant": "Double Cab 1.9L High AT",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 337,
+        "fields": {
+            "generation": 322,
+            "variant": "Double Cab 3.0L High Plus AT",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 338,
+        "fields": {
+            "generation": 323,
+            "variant": "E63 S 4MATIC+",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 339,
+        "fields": {
+            "generation": 333,
+            "variant": "2.0G Core 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 340,
+        "fields": {
+            "generation": 333,
+            "variant": "2.0G High 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 341,
+        "fields": {
+            "generation": 325,
+            "variant": "53 4MATIC+ Coupe",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 342,
+        "fields": {
+            "generation": 333,
+            "variant": "1.8D High 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 343,
+        "fields": {
+            "generation": 333,
+            "variant": "2.0G High Ignite Edition 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 344,
+        "fields": {
+            "generation": 339,
+            "variant": "2.0G High Ignite Edition AWD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 345,
+        "fields": {
+            "generation": 326,
+            "variant": "S580 4MATIC",
+            "body_type": "Sedan",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 346,
+        "fields": {
+            "generation": 324,
+            "variant": "2.0G",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 347,
+        "fields": {
+            "generation": 327,
+            "variant": "600 4MATIC",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 348,
+        "fields": {
+            "generation": 324,
+            "variant": "2.0G High",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 349,
+        "fields": {
+            "generation": 324,
+            "variant": "1.8D High",
+            "body_type": "SUV",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 350,
+        "fields": {
+            "generation": 324,
+            "variant": "2.0G High AWD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 351,
+        "fields": {
+            "generation": 328,
+            "variant": "450+ AMG Line",
+            "body_type": "Sedan",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 352,
+        "fields": {
+            "generation": 329,
+            "variant": "250 AMG Line",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 353,
+        "fields": {
+            "generation": 330,
+            "variant": "2.5 Turbo High Plus AWD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 354,
+        "fields": {
+            "generation": 330,
+            "variant": "2.5 Mid 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 355,
+        "fields": {
+            "generation": 330,
+            "variant": "2.5 High 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 356,
+        "fields": {
+            "generation": 331,
+            "variant": "-",
+            "body_type": "MPV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 357,
+        "fields": {
+            "generation": 330,
+            "variant": "2.5 High Plus 2WD",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 358,
+        "fields": {
+            "generation": 330,
+            "variant": "2.2D High Plus",
+            "body_type": "SUV",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 359,
+        "fields": {
+            "generation": 332,
+            "variant": "Allure",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 360,
+        "fields": {
+            "generation": 334,
+            "variant": "Allure",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 361,
+        "fields": {
+            "generation": 333,
+            "variant": "EV High",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 362,
+        "fields": {
+            "generation": 335,
+            "variant": "Allure",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 363,
+        "fields": {
+            "generation": 333,
+            "variant": "EV Mid",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 364,
+        "fields": {
+            "generation": 336,
+            "variant": "1.9L 4x4 MT Single Cab",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 365,
+        "fields": {
+            "generation": 336,
+            "variant": "3.0L 4x4 MT Single Cab",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 366,
+        "fields": {
+            "generation": 336,
+            "variant": "1.9L 4x4 MT Standard",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 367,
+        "fields": {
+            "generation": 336,
+            "variant": "1.9L 4x2 AT Plus",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 368,
+        "fields": {
+            "generation": 336,
+            "variant": "1.9L 4x4 AT Standard",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 369,
+        "fields": {
+            "generation": 336,
+            "variant": "1.9L 4x4 AT Premium",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 370,
+        "fields": {
+            "generation": 336,
+            "variant": "3.0L 4x4 AT Premium",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 371,
+        "fields": {
+            "generation": 336,
+            "variant": "3.0L 4x4 AT X-Terrain",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 372,
+        "fields": {
+            "generation": 340,
+            "variant": "Cooper S",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 373,
+        "fields": {
+            "generation": 340,
+            "variant": "Cooper SE All4",
+            "body_type": "SUV",
+            "fuel_type": "Hybrid",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 374,
+        "fields": {
+            "generation": 340,
+            "variant": "John Cooper Works",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 375,
+        "fields": {
+            "generation": 338,
+            "variant": "GT-Line AWD",
+            "body_type": "SUV",
+            "fuel_type": "Electric",
+            "transmission": "Electric"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 376,
+        "fields": {
+            "generation": 78,
+            "variant": "2.0L",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 377,
+        "fields": {
+            "generation": 143,
+            "variant": "Gran Coupe",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 378,
+        "fields": {
+            "generation": 341,
+            "variant": "Competition",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 379,
+        "fields": {
+            "generation": 227,
+            "variant": "2.4 6AT",
+            "body_type": "Coupe",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 380,
+        "fields": {
+            "generation": 284,
+            "variant": "1.6 GT Line",
+            "body_type": "SUV",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 381,
+        "fields": {
+            "generation": 312,
+            "variant": "A35 4MATIC",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 383,
+        "fields": {
+            "generation": 322,
+            "variant": "Single Cab 1.9L MT",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 384,
+        "fields": {
+            "generation": 322,
+            "variant": "Double Cab 1.9L Mid MT",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Manual"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 385,
+        "fields": {
+            "generation": 322,
+            "variant": "Double Cab 1.9L Mid AT",
+            "body_type": "Pickup Truck",
+            "fuel_type": "Diesel",
+            "transmission": "Automatic"
+        }
+    },
+    {
+        "model": "car.variant",
+        "pk": 386,
+        "fields": {
+            "generation": 233,
+            "variant": "Extended",
+            "body_type": "Sedan",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic"
+        }
+    }
+]
