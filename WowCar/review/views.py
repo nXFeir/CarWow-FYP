@@ -29,3 +29,14 @@ def get_reviews_by_car(request, pk):
 def get_reviews_by_reviewer(request, pk):
     reviews = Review.objects.filter(reviewer=pk)
     return Response(ReviewSerializer(reviews, many=True).data)
+
+
+class CommentList(generics.ListCreateAPIView):
+    queryset = Comment.objects.all()
+    serializer_class = CommentSerializer
+    filter_backends = [filters.OrderingFilter, django_filters.rest_framework.DjangoFilterBackend]
+    ordering_fields = ['created_at']
+
+class CommentDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Comment.objects.all()
+    serializer_class = CommentSerializer
