@@ -6,6 +6,7 @@ from .views import *
 urlpatterns = [
     path('', ReviewList.as_view(),name="List review"),
     path('detail/<int:pk>', ReviewDetail.as_view(),name="review detail"),
+    path('user', UserReviewList .as_view(),name="UserReviewList"),
     path('car/<int:pk>', get_reviews_by_car,name="Get review by car"),
     path('reviewer/<int:pk>', get_reviews_by_reviewer,name="Get review by reviewer"),
 

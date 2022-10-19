@@ -1,15 +1,14 @@
+import django_filters.rest_framework
 from django.db.models import Count
 from django.shortcuts import get_object_or_404
 from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import filters, generics
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from rest_framework.views import APIView
-from rest_framework import filters
-from rest_framework import generics
-import django_filters.rest_framework
 
 from .models import *
 from .serializers import *
+
 
 class BrandList(generics.ListAPIView):
     queryset = Brand.objects.all()

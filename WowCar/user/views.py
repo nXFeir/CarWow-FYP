@@ -7,6 +7,9 @@ from .models import User
 from .serializers import *
 from rest_framework import generics
 from rest_framework.response import Response
+from rest_framework.authentication import BasicAuthentication
+from rest_framework.permissions import IsAuthenticated
+
 
 class SignUpView(CreateView):
     form_class = CustomUserCreationForm
@@ -17,3 +20,5 @@ class SignUpView(CreateView):
 class UserDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer 
+    authentication_classes = [BasicAuthentication]
+    permission_classes = [IsAuthenticated]
