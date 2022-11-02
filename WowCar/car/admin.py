@@ -15,7 +15,7 @@ class GenerationAdmin(admin.ModelAdmin):
 
 class VariantAdmin(admin.ModelAdmin):
     model = Variant
-    list_display = ['generation', 'variant', 'transmission', 'fuel_type', 'body_type']
+    list_display = ['generation', 'variant', 'transmission', 'fuel_type', 'body_type', 'image']
 
     
 admin.site.register(Brand, BrandAdmin)

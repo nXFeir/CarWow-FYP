@@ -113,6 +113,8 @@ class Variant(models.Model):
     transmission = models.CharField(choices=TRANSMISSION_CHOICES, default='Automatic', max_length=10)
     fuel_type = models.CharField(choices=FUEL_CHOICES, default='Petrol', max_length=10)
     body_type = models.CharField(choices=BODY_CHOICES, default='Sedan', max_length=15)
+    image = models.CharField(max_length=255, blank=True, null=True) 
+    
     
     def __str__(self):
         return f'{self.generation} {self.variant}'

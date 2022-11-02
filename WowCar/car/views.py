@@ -30,8 +30,9 @@ class ModelsByBrandList(generics.ListAPIView):
 class ModelList(generics.ListAPIView):
     queryset = Model.objects.all()
     serializer_class = CarModelSerializer
-    filter_backends = [filters.OrderingFilter, django_filters.rest_framework.DjangoFilterBackend]
+    filter_backends = [filters.OrderingFilter, django_filters.rest_framework.DjangoFilterBackend, filters.SearchFilter]
     ordering_fields = ['generations__year_begin', 'model_name', 'brand__brand']
+    search_fields = ['brand__brand', 'model_name']
 
 
 class CarModelView(generics.RetrieveAPIView):

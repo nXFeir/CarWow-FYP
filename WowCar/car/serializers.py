@@ -15,10 +15,11 @@ class CarModelSerializer(serializers.ModelSerializer):
     body_type = serializers.SerializerMethodField()
     fuel_type = serializers.SerializerMethodField()
     transmission = serializers.SerializerMethodField()
+    image = serializers.SerializerMethodField()
 
     class Meta:
         model = Model
-        fields = ['id' ,'brand', 'model_name', 'variant', 'body_type', 'fuel_type', 'transmission', 'reviews']
+        fields = ['id' ,'brand', 'model_name', 'variant', 'body_type', 'fuel_type', 'transmission', 'image', 'reviews']
 
     def get_variant(self, obj):
         return obj.get_gen_variant_list()
@@ -31,3 +32,10 @@ class CarModelSerializer(serializers.ModelSerializer):
 
     def get_transmission(self, obj):
         return obj.get_gen_transmission_list()
+
+    def get_image(self, obj):
+        var = Variant.objects.filter(generation__model=obj, image__isnull=False).first()
+        if var:
+            return var.image
+        return None
+        
