@@ -31,7 +31,7 @@ class UserReviewList(generics.ListAPIView):
 
 @api_view(['GET'])
 def get_reviews_by_car(request, pk):
-    reviews = Review.objects.filter(car_model__id=pk)
+    reviews = Review.objects.filter(car_model__id=pk).order_by('-created_at')
     return Response(ReviewSerializer(reviews, many=True).data)
 
 @api_view(['GET'])
