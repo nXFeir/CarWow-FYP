@@ -3,6 +3,7 @@ from rest_framework import serializers
 from .models import *
 
 class ReviewSerializer(serializers.ModelSerializer):
+    comments = serializers.PrimaryKeyRelatedField(many=True, queryset=Comment.objects.all(), required=False)
     class Meta:
         model = Review
         fields = ['id', 'car_model', 'reviewer', 'score', 'content', 'comments', 'created_at']
