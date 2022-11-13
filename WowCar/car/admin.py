@@ -17,8 +17,13 @@ class VariantAdmin(admin.ModelAdmin):
     model = Variant
     list_display = ['generation', 'variant', 'transmission', 'fuel_type', 'body_type', 'image']
 
+class CarSuggestionAdmin(admin.ModelAdmin):
+    model = CarSuggestion
+    list_display = ['id', 'brand', 'model_name', 'body_type']
+
     
 admin.site.register(Brand, BrandAdmin)
 admin.site.register(Model, ModelAdmin)
 admin.site.register(Generation, GenerationAdmin)
 admin.site.register(Variant, VariantAdmin)
+admin.site.register(CarSuggestion, CarSuggestionAdmin)
