@@ -8,4 +8,6 @@ urlpatterns = [
     path('model/<int:pk>', CarModelView.as_view(),name="Get Model"),
     path('model/', ModelList.as_view(),name="Get All Model"),
     path('model/review', get_cars_by_review,name="Get All Model by review"),
+    path('model/suggest', CarSuggestionView.as_view(),name="Suggest Car"),
+
 ]

@@ -39,3 +39,8 @@ class CarModelSerializer(serializers.ModelSerializer):
             return var.image
         return None
         
+
+class CarSuggestionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CarSuggestion
+        fields = '__all__'

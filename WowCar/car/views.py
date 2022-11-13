@@ -32,7 +32,7 @@ class ModelList(generics.ListAPIView):
     serializer_class = CarModelSerializer
     filter_backends = [filters.OrderingFilter, django_filters.rest_framework.DjangoFilterBackend, filters.SearchFilter]
     ordering_fields = ['generations__year_begin', 'model_name', 'brand__brand']
-    search_fields = ['brand__brand', 'model_name']
+    search_fields = ['brand__brand', 'model_name', 'generations__variants__body_type', 'generations__variants__fuel_type','generations__variants__transmission']
 
 
 class CarModelView(generics.RetrieveAPIView):
@@ -43,3 +43,8 @@ class CarModelView(generics.RetrieveAPIView):
 def get_cars_by_review(request):
     cars = Model.objects.all().annotate(review_count=Count('reviews')).order_by('-review_count')
     return Response(CarModelSerializer(cars, many=True).data)
+
+
+class CarSuggestionView(generics.CreateAPIView):
+    queryset = CarSuggestion.objects.all()
+    serializer_class = CarSuggestionSerializer

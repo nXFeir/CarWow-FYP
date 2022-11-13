@@ -85,28 +85,28 @@ class Generation(models.Model):
         variants = self.variants.all()
         return list(variants.values_list('body_type', flat=True).distinct('body_type'))
     
+TRANSMISSION_CHOICES = (
+    ('Manual', 'MANUAL'),
+    ('Automatic', 'AUTOMATIC'),
+    ('Electric', 'ELECTRIC')
+)
+FUEL_CHOICES = (
+    ('Petrol', 'PETROL'),
+    ('Diesel', 'DIESEL'),
+    ('Electric', 'ELECTRIC'),
+    ('Hybrid', 'HYBRID')
+)
+BODY_CHOICES = (
+    ('SUV', 'SUV'),
+    ('Sedan', 'SEDAN'),
+    ('Hatchback', 'HATCHBACK'),
+    ('Wagon', 'WAGON'),
+    ('MPV', 'MPV'),
+    ('Pickup Truck', 'PICKUP TRUCK'),
+    ('Coupe', 'COUPE'),
+    ('Convertible', 'CONVERTIBLE')
+)
 class Variant(models.Model):
-    TRANSMISSION_CHOICES = (
-        ('Manual', 'MANUAL'),
-        ('Automatic', 'AUTOMATIC'),
-        ('Electric', 'ELECTRIC')
-    )
-    FUEL_CHOICES = (
-        ('Petrol', 'PETROL'),
-        ('Diesel', 'DIESEL'),
-        ('Electric', 'ELECTRIC'),
-        ('Hybrid', 'HYBRID')
-    )
-    BODY_CHOICES = (
-        ('SUV', 'SUV'),
-        ('Sedan', 'SEDAN'),
-        ('Hatchback', 'HATCHBACK'),
-        ('Wagon', 'WAGON'),
-        ('MPV', 'MPV'),
-        ('Pickup Truck', 'PICKUP TRUCK'),
-        ('Coupe', 'COUPE'),
-        ('Convertible', 'CONVERTIBLE')
-    )
 
     generation = models.ForeignKey(Generation, on_delete=models.CASCADE, related_name='variants')
     variant = models.CharField(max_length=50)
@@ -118,3 +118,12 @@ class Variant(models.Model):
     
     def __str__(self):
         return f'{self.generation} {self.variant}'
+
+
+class CarSuggestion(models.Model):
+    brand = models.CharField(max_length=20)
+    model_name = models.CharField(max_length=50)
+    body_type = models.CharField(choices=BODY_CHOICES, max_length=15)
+
+    def __str__(self):
+        return f'{self.brand} - {self.model_name}'
